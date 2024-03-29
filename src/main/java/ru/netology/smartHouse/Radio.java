@@ -1,8 +1,8 @@
 package ru.netology.smartHouse;
 
 public class Radio {
-    int currentRadioStation;
-    int currentVolume;
+    private int currentRadioStation;
+    private int currentVolume;
 
     public int getCurrentRadioStation() {
         return currentRadioStation;
@@ -41,6 +41,7 @@ public class Radio {
         }
         currentRadioStation = 9;
     }
+
     public int getCurrentVolume() {
         return currentVolume;
     }
